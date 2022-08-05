@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="тестировщик, QA, Junior" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Ирина Лещенко</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Лещенко</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Главная
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Образование
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Навыки
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Опыт работы
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- Все элементы в этом div создаются в формате PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== Главная ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./assets/img/perfil.jpg" alt="" class="home__img" />
+
+                <h1 class="home__title">ИРИНА <b>ЛЕЩЕНКО</b></h1>
+                <h3 class="home__profession">QA Engeneer</h3>
+
+                <!-- Кнопка для создания и загрузки pdf. -->
+                <div>
+                  <a
+                    download=""
+                    href="./assets/pdf//Leshenko-QA-Cv.pdf"
+                    class="home__button-movil"
+                    >Скачать CV</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Донецк
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i> Irk1404@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +7 949 347-11-34
+                </span>
+              </div>
+            </div>
+            <!-- Кнопка смены темы -->
+
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Кнопка для создания и загрузки pdf. Для ПК. -->
+
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== Соц. сети ==========-->
+          <section class="social section">
+            <h2 class="section-title">СOЦ. СЕТИ</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/irinalwnk/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> irinalwnk
+              </a>
+              <a
+                href="https://github.com/irinalwnk"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> irinalwnk
+              </a>
+              <a
+                href="https://t.me/ping_kri"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-telegram social__icon"></i> ping_kri
+              </a>
+            </div>
+          </section>
+
+          <!--========== Образование ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Образование</h2>
+
+            <div class="education__cantainer bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!--<span class="education__line"></span>-->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Высшее</h3>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!--<span class="education__line"></span>-->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Учет и Аудит</h3>
+                  <span class="education__studies">ДНТУ</span>
+                  <span class="education__year">2008-2013</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!--<span class="education__line"></span>-->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">1С: Предприятие 8.2</h3>
+                  <span class="education__studies"
+                    >Компьютерная Академия «Шаг»</span
+                  >
+                  <span class="education__year">2013</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!--<span class="education__line"></span>-->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">QA Engeneer</h3>
+                  <span class="education__studies"
+                    >QA course by Vadim Ksendzov</span
+                  >
+                  <span class="education__year">2022</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== Скилы  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Навыки</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Notion
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Fiddler
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Charles
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Figma
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> DevTools
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Git
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Postman
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Функциональное
+                  тестирование
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Нефункциональное
+                  тестирование
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Регрессионное
+                  тестирование
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Тестирование GUI
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Ведение тестовой
+                  документации
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== Опыт ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">ОПЫТ РАБОТЫ</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">QA Engeneer</h3>
+                  <span class="experience__company">с 2022 | Аэролабс</span>
+                  <p class="experience__description">
+                    Функциональное тестирование | Нефункциональное тестирование
+                    | Регрессионное тестирование | Тестирование GUI |
+                    Кроссбраузерное тестирование | Составление тест кейсов и чек
+                    листов | Re-тест подчиненных ошибок | Ведение тестовой
+                    документации | Работа с требованиями (User Stories) |
+                    Оформление баг репортов | Ревью тест кейсов и чек листов |
+                    Корректировка и актуализация тест кейсов | Составление
+                    отчетов о тестировании | Оптимизация процесса тестирования
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    ВЕДУЩИЙ БУХГАЛТЕР СКЛАДА (РАСПРЕДЕЛИТЕЛЬНОГО ЦЕНТРА)
+                  </h3>
+                  <span class="experience__company"
+                    >с 2014 по 2018 | ТС " GOODZONE"</span
+                  >
+                  <p class="experience__description">
+                    Ведение учета ТМЦ - непродовольственные товары (одежда,
+                    обувь, кожгалантерея и т.д) | Ведение дорожных листов по
+                    транспортным средствам | Проведение и корректировки
+                    инвентаризаций как на складе, так и на магазинах | Работа с
+                    товарными остатками складов, магазинов | Плотное
+                    взаимодействие с другими отделами компании | Ведение учета
+                    ОС, МБП | Организация работы операционного отдела склада (8
+                    человек подчиненных операторов) | Курирование текущих
+                    вопросов работы склада, опер. отдела | Сверки с поставщиками
+                    | Работа с остатками складов, магазинов | Разработка и
+                    внедрение изменений в работу склада в целях оптимизации
+                    процессов, ускорения в работе, уменьшения времени обработки
+                    товара | Разработка и предоставление отчетности руководству
+                    о плановых, фактических показателях работы склада | Работа с
+                    поставщиками хоз/канц товаров (обработка заказа по всей
+                    фирме, заказы поставщикам, оприходования, сверки) | Отркытие
+                    с «нуля», построение работы, налаживание. контроль и
+                    оптимизация рабочих процессов опер.отдела нового склада в г.
+                    Луганск | Обучение персонала и курирование вопросов
+                    адаптации сотрудников
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!--<span class="experience__line"></span>-->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">БУХГАЛТЕР-ОПЕРАТОР СКЛАДА</h3>
+                  <span class="experience__company"
+                    >c 2013 по 2014 | ТС " GOODZONE"</span
+                  >
+                  <p class="experience__description">
+                    Оприходование товара | Заведение карточек товаров в базу
+                    данных | Подготовка и сохранение отчетности, документации |
+                    Hабота с первичными и сопроводительными документами | Hабота
+                    с персоналом: звонки контрагентам, работниками склада и
+                    других отделов.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== Языки ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Языки</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Русский (Родной)
+                </li>
+
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Украинский (Родной)
+                </li>
+
+                <li class="languages__name">
+                  <span class="languages__circle"></span> English (B2 Upper
+                  Intermediate)
+                </li>
+
+                <li class="languages__name">
+                  <span class="languages__circle"></span> German (Basic)
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== Интересы ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Увлечения</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Музыка</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Чтение</span>
+              </div>
+
+              <div class="interests__content">
+                <i class='bx bx-movie-play interests__icon'></i>
+                <span class="interests__name">Фильмы</span>
+              </div>
+
+              <div class="interests__content">
+                <i class='bx bx-game interests__icon'></i>
+                <span class="interests__name">Игры</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== Прокрутка наверх ==========-->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bxs-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
